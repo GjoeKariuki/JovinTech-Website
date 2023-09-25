@@ -6,447 +6,612 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JOVINTECH</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="fontmin.css">
+    
 </head>
 
 <body>
+
     <header id="first-div">
-        <nav class="nav-header">
+        <div id="inner-header">
             <div class="nav-logo">
                 <a href="#">
-                    <img id="imglogo" src="assets/js.png" alt="jovintech logo">
+                    <img id="imglogo" src="assets/images/js.png" alt="jovintech logo">
                 </a>
             </div>
-            <ul class="menu">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Services">Services</a></li>
-            </ul>
-            <button id="cntus">Contact Us</button>
-        </nav>
-    </header>
-    <section id="home-sect">
-        <div class="landing">
-            <!-- <img id="landingimg" src="assets/IMG-20230820-WA0004.jpg" alt=""> -->
-            <h1>Jovintech Technology Services</h1>
-            <h3>Your security our concern</h3>
-
-            
+            <nav class="nav-header">
+                <ul class="menu">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+            </nav>
+            <a href="#cntus" id="cntusbtn">Contact Us</a>
         </div>
+    </header>
+
+    <section class="home-sect" id="Home">
+        <div class="slideshow-container">
+            <div class="landing">
+                <!-- <img id="landingimg" src="assets/IMG-20230820-WA0004.jpg" alt=""> -->
+                <p>Welcome to</p>
+                <h1>Jovintech Technology Services</h1>
+                <h3>Your security our concern</h3>
+            </div>
+
+        </div>
+
+
     </section>
-    <section id="about-sect">
+    <!-- <div class="navigations">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div> -->
+    <section id="About" class="about-sect">
         <div class="about-us">
             <h1>About Us</h1>
             <h3>We are a Company</h3>
-            <h4>Specialist in: installation, management of cctv systems, access control systems, electric & razor fence, Internet Services Programming / Networking</h4>
-
+            <h4>Specialised in: installation, management of cctv systems, access control systems, electric & razor
+                fence, Internet Services Programming / Networking</h4>
         </div>
     </section>
-    <section id="service-sect">
+
+    <section class="service-sect" id="Services">
         <div class="services">
-            <h2>HIKVISION AUTHORIZED DEALER</h2>
-            <!-- <div id="kit4">
-                <h2>Complete 4 cctv CAMERA installation kit</h2>
-                <div>
-                    <img src="assets/download (2).jpg" alt="DVR image">
-                    <p>4 channel DVR</p>
+            <div id="onoffer" class="boxesContainer">
+                <div class="cardBox">
+                    <div class="cardds">
+                        <div class="front">
+                            <h2>Complete 4 cctv CAMERA installation kit</h2>
+
+                            <p>4 channel DVR & NVR</p>
+
+                            <p>4 HD Cameras</p>
+
+                            <p>30 meters CCTV cable</p>
+
+                            <p>Video cable</p>
+
+                            <p>5Amps Power supply</p>
+
+                            <p>Screen Monitor</p>
+
+                            <p>1TB/500GB Storage Drive</p>
+                        </div>
+                        <div class="back">
+                            <picture>
+                                <img src="assets/images/images (12).jpg" alt="coming soons">
+                            </picture>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img src="assets/download.jpg" alt="HD cameras">
-                    <p>4 HD Cameras</p>
-                </div>
-                <div>
-                    <img src="assets/download (20).jpg" alt="cctv cable">
-                    <p>30 meters CCTV cable</p>
-                </div>
-                <div>
-                    <img src="assets/download (15).jpg" alt="video cable">
-                    <p>Video cable</p>
-                </div>
-                <div>
-                    <img src="assets/download (25).jpg" alt="power supply">
-                    <p>5Amps Power supply</p>
-                </div>
-                <div>
-                    <img src="assets/download (11).jpg" alt="screen monitor">
-                    <p>Screen Monitor</p>
-                </div>
-                <div>
-                    <img src="assets/download (32).jpg" alt="DVR image">
-                    <p>1TB/500GB Storage Drive</p>
+                <div class="cardBox">
+                    <div class="cardds">
+                        <div class="front">
+                            <h2>Complete 8 cctv CAMERA installation kit</h2>
+
+                            <p>8 channel DVR & NVR</p>
+
+                            <p>8 HD Cameras</p>
+
+                            <p>30 meters CCTV cable</p>
+
+                            <p>Video cable</p>
+
+                            <p> 5Amps & above Power supply</p>
+
+                            <p>Screen Monitor</p>
+
+                            <p>1TB/500GB Storage Drive</p>
+                        </div>
+                        <div class="back">
+                            <picture>
+                                <img src="assets/images/download (9).jpg" alt="coming soon">
+                            </picture>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="kit8">
-                <h2>Complete 8 cctv CAMERA installation kit</h2>
-                <div>
-                    <img src="assets/download (3).jpg" alt="DVR image">
-                    <p>8 channel DVR</p>
+
+            <div>
+                <div id="productsdiv">
+                    <details>
+                        <summary>Cameras</summary>
+                        <p> Bullet-shaped and Dome-shaped for both indoor and outdoor security & surveillance</p>
+                        <p>
+                            <li>IR Night Vision</li>
+                            <li>High Quality Image Resolution</li>
+                        </p>
+                        <ul class="media-scroller" id="otherkit">
+
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/bullent.jfif" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (2).jpg" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (4).jpg" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (1).jfif" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (3).jfif" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+
+
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (2).jfif" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images.jfif" alt=".." loading="lazy">
+                                    </picture>
+
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (1).jpg" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download.jfif" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download.jpg" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img style="height:200px;width: 250px;" src="assets/images/IMG-20230820-WA0006.jpg"
+                                            alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+
+                        </ul>
+                    </details>
                 </div>
-                <div>
-                    <img src="assets/download (9).jpg" alt="HD cameras">
-                    <p>8 HD Cameras</p>
+                <div id="productsdiv">
+
+                    <details>
+                        <summary> Digital Video Recorders (DVR) & Network Video Recorders (NVR)</summary>
+                        <p>4 Channel, 8 Channel, 16 Channel & 32 Channel Digital Video Recorders (DVR) and Network Video
+                            Recorders (NVR)</p>
+                        <ul class="media-scroller" id="otherkit">
+
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>DVR</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (2).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>DVR</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (3).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>DVR</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (6).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/DVR_vs_NVR_horizontal-2.png" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>Camera</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (3).jfif" alt=".." loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                        </ul>
+                    </details>
                 </div>
-                <div>
-                    <img src="assets/download (19).jpg" alt="cctv cable">
-                    <p>30 meters CCTV cable</p>
+                <div id="productsdiv">
+
+                    <details>
+                        <summary>Monitor & Screen Control</summary>
+                        <p>21" inches & 32" inches display monitors</p>
+                        <ul class="media-scroller" id="otherkit">
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (12).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (13).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+
+
+
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (14).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                        </ul>
+                    </details>
                 </div>
-                <div>
-                    <img src="assets/download (18).jpg" alt="video cable">
-                    <p>Video cable</p>
+                <div id="productsdiv">
+
+                    <details>
+                        <summary>Storage Drive & Peripherals</summary>
+                        <p>Extendable 1TB & 500HD hard drives with both wired and wireless mouse</p>
+                        <ul class="media-scroller" id="otherkit">
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (30).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (32).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (21).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (27).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (28).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                        </ul>
+                    </details>
                 </div>
-                <div>
-                    <img src="assets/download (38).jpg" alt="power supply">
-                    <p>Power supply</p>
+                <div id="productsdiv">
+
+                    <details>
+                        <summary>Cables, Power Jack, BNC connectors, Video Balon & other accessories</summary>
+                        <ul class="media-scroller" id="otherkit">
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (15).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+
+
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (16).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (17).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (34).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (35).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (24).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (23).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (24).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (26).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                        </ul>
+
+
+                    </details>
                 </div>
-                <div>
-                    <img src="assets/download (14).jpg" alt="screen monitor">
-                    <p>Screen Monitor</p>
+                <div id="productsdiv">
+
+                    <details open="True">
+                        <summary>Power Supply Unit Box & Power Adapters</summary>
+                        <ul class="media-scroller" id="otherkit">
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (36).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (37).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+
+
+                            <li>
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (27).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+                            </li>
+
+                            <li>
+
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/download (38).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!-- <figcaption>HIKVISION</figcaption> -->
+                                    <picture>
+                                        <img src="assets/images/images (18).jpg" alt="" loading="lazy">
+                                    </picture>
+                                </figure>
+
+                            </li>
+
+                        </ul>
+                    </details>
                 </div>
-                <div>
-                    <img src="assets/download (30).jpg" alt="DVR image">
-                    <p>1TB/500GB Storage Drive</p>
-                </div>
-            </div> -->
-            <ul class="media-scroller" id="otherkit">
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (1).jpg" alt=".." loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                    
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (4).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>                    
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (5).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>                      
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (6).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>  
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (9).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a> 
-                  
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (10).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a> 
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (11).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (12).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (13).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                    
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (16).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-        
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (17).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                 
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (18).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                   
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (19).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                    
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (20).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                    
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (21).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                   
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (22).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                    
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (23).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                   
-                </li>
-                <li>
-                    <a href="#">
-                        <figure>
-                            <figcaption>HIKVISION</figcaption>
-                            <picture>
-                                <img src="assets/download (24).jpg" alt="" loading="lazy">
-                            </picture>
-                        </figure>
-                    </a>
-                </li>
-                <!-- <div>
-                    <img src="assets/download (27).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (28).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (29).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (31).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (32).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (33).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (34).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (35).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (36).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (37).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/download (38).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (17).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (18).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (19).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (20).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (21).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (22).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (23).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (24).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (25).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (26).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (27).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (28).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/IMG-20230820-WA0006.jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (12).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (2).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (3).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (4).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (5).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (6).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (7).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (8).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (9).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (10).jpg" alt="">
-                </div>
-                <div>
-                    <img src="assets/images (11).jpg" alt="">
-                </div> -->
-            </ul>
+            </div>
         </div>
     </section>
-    <section id="contact-sect">
+    <section class="contact-sect" id="cntus">
         <div class="container">
             <div class="content">
                 <div class="left-side">
                     <div class="address details">
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="topic">Address</div>
-                        <div class="text-one">Surkhet, NP12</div>
-                        <div class="text-two">Birendranagar 06</div>
+                        <div class="text-two">Juja, HighPoint</div>
+                        <div class="text-one">Lexo Petrol Station, Along Thika Road</div>
                     </div>
                     <div class="phone details">
                         <i class="fas fa-phone-alt"></i>
                         <div class="topic">Phone</div>
-                        <div class="text-one">+0098 9393 38383</div>
-                        <div class="text-two">+0098 9393 38383</div>
+                        <div class="text-two">+254 113 479 372</div>
+
                     </div>
                     <div class="email details">
                         <i class="fas fa-envelope"></i>
                         <div class="topic">Email</div>
-                        <div class="text-one">codinglab@gmail.com</div>
-                        <div class="text-two">info.codinglad@gmail.com</div>
+                        <div class="text-one">jovintechtechnology@gmail.com</div>
+
                     </div>
                 </div>
 
                 <div class="right-side">
                     <div class="topic-text">Send us a message</div>
                     <p>You can send me your message here. It's my pleasure to help you.</p>
-                    <form action="#">
+                    <form action="helpers/sending_email.php" method="post">
                         <div class="input-box">
-                            <input type="text" placeholder="Enter your name .....">
+                            <input type="text" id="name" name="name" placeholder="Enter your name ....." required>
                         </div>
                         <div class="input-box">
-                            <input type="text" placeholder="Enter your email .....">
+                            <input type="email" id="email" name="email" placeholder="Enter your email address ....."
+                                required>
                         </div>
                         <div class="input-box message-box">
-                            <textarea name="usermessage" id="usermessage" cols="22" rows="10" placeholder="Write your message here ....."></textarea>
-                        </div> 
+                            <textarea name="message" id="message" cols="22" rows="10"
+                                placeholder="Write your message here ....." required></textarea>
+                        </div>
                         <div class="button">
-                            <input type="button" value="Send Now">
+                            <input type="submit" value="Send Now">
                         </div>
                     </form>
                 </div>
@@ -454,13 +619,27 @@
         </div>
     </section>
     <footer>
-        <p>Tel:</p><span>+254 113 479 372</span>
-        <a href="mailto:hege@example.com">hege@example.com</a>
-        <small>
-            Copyright © 2023 Jovintech Technology Services. All Rights Reserved.
-        </small>
+        <div id="innerfooter">
+            <p>Tel:<span>+254 113 479 372</span></p>
+            <p>Email:<a style="color:white"
+                    href="mailto:jovintechtechnology@gmail.com">jovintechtechnology@gmail.com</a></p>
+            <nav>
+                <ul id="futer-ul">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div><small>
+                Copyright © 2023 Jovintech Technology Services. All Rights Reserved.
+            </small></div>
+
     </footer>
-    <script src="mainfuncs.js" defer></script>
+    <script src="helpers/mainfuncs.js" defer></script>
 </body>
 
 </html>
